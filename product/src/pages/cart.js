@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon, SummaryTable, colors } from "design-system";
+import { Avatar, Button, Icon, SummaryTable, colors } from "design-system";
 import { Link } from "react-router-dom";
 
 const data = require("../data/data.js");
@@ -16,7 +16,7 @@ const Cart = ({
     <div>
       <StyledDiv1>
         <StyledDiv2>
-          <StyledImage1 src={data.user.avatar} />
+          <Avatar />
           <Button isOutline>
             <Icon name="menu" />
           </Button>
