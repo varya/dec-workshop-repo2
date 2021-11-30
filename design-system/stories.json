@@ -6,6 +6,10 @@
       "fileName": "/home/runner/work/dec-workshop-repo2/dec-workshop-repo2/design-system/src/color.stories.mdx",
       "framework": "react"
     },
+    "Components/Avatar": {
+      "fileName": "/home/runner/work/dec-workshop-repo2/dec-workshop-repo2/design-system/src/components/Avatar/Avatar.stories.mdx",
+      "framework": "react"
+    },
     "Components/Button": {
       "fileName": "/home/runner/work/dec-workshop-repo2/dec-workshop-repo2/design-system/src/components/Button/Button.stories.mdx",
       "framework": "react"
@@ -44,6 +48,15 @@
       "parameters": {
         "docsOnly": true,
         "__id": "color-palette--page"
+      }
+    },
+    "components-avatar--default-story": {
+      "id": "components-avatar--default-story",
+      "name": "Default",
+      "kind": "Components/Avatar",
+      "story": "Default",
+      "parameters": {
+        "__id": "components-avatar--default-story"
       }
     },
     "components-button--default-story": {
